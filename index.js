@@ -1,5 +1,11 @@
 #!/usr/bin/env node
+ // 上面是hashbang固定写法
 
-// 上面是hashbang固定写法
 
-console.log("why cli");
+const {
+  program
+} = require('commander');
+
+program.version(require('./package.json').version);
+
+program.parse(process.argv) //显示版本号

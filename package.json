@@ -16,5 +16,8 @@
     "react"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1"
+  }
 }
