@@ -19,7 +19,7 @@ npm install daishu-cli -g
 创建 vue 项目
 
 ```js
-daishu create 项目名 -f vue
+daishu create 项目名
 ```
 
 创建 react 项目(后续支持)
