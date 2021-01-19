@@ -28,11 +28,15 @@ daishu create 项目名 -f vue
 daishu create 项目名 -f vue
 ```
 
-#### 安装依赖
+创建项目默认自动会安装和打开浏览器,脚手架使用的是 npm 安装,如果 npm 安装不成功可以手动安装
+
+#### 手动安装依赖和运行(自动安装失败时可以选择这个手动安装)
 
 ```js
+// 依次执行下面命令
 cd 项目名
 npm install
+npm run serve
 ```
 
 # 其它创建命令
